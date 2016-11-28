@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ping-pong</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container" id="Firstblock">
+    <h1>ping pong</h1>
+           <h2>let's play</h2>
+           <h3>rules</h3>
+           <p>
+             ping pong will count your number from 1 with exception from the following:
+             <ol>
+               <li>number divisible by 3  become "ping"</li>
+               <li>number divisible by 5 become "pong"</li>
+               <li>number divisible by both 3 and 5 become "pingpong"</li>
+             </ol>
+           </p>
+    <form id="ThePong">
+          <div class="form-group">
+            <label for="number">Enter a number</label>
+            <input id="number" type="text">
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg">ping pong!</button>
+  </form>
+  <div>
+        <ul id="output">
+
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/jquery3.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
