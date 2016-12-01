@@ -1,3 +1,29 @@
-#Firstblock{
-  align-items: center;
+body {
+  font-size: 14pt;
+  font-family: cursive;
+  background-color: lightgrey;
+  padding-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+
 }
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: cursive;
+    
+}
+#Content{
+  align-items: center;
+  float:center;
+  width:655px;
+  font-family: cursive;
+
+}.col-sm-6{
+  border-left: 0px;
+  margin-left: 0px;
+}
+
+
