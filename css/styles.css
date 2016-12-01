@@ -1,18 +1,27 @@
 body {
-  font-size: 14pt;
-  font-family: cursive;
-  background-color: lightgrey;
-  padding-top: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
+  background: url(../img/pingpong2.jpg) no-repeat center fixed;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+  font-family: 'Gentium Basic', serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
 
 }
 .container-fluid{
     padding-right: 15px;
     padding-left: 15px;
     margin-right: 0px;
-    margin-left: 0px;
+    margin-left: 700px;
+    margin-top: 250px;
     font-family: cursive;
+    
     
 }
 #Content{
@@ -20,10 +29,14 @@ body {
   float:center;
   width:655px;
   font-family: cursive;
+  
 
-}.col-sm-6{
+}
+.col-sm-12{
   border-left: 0px;
   margin-left: 0px;
+  
+
 }
 
 
